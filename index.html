@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-pro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex-block">
+            <a href="/" class="logo">« Турист-pro »</a>
+            <nav class="navigation flex-block">
+                <a href="#promo" class="nav-link">Акции</a>
+                <a href="#" class="nav-link">Поиск</a>
+                <a href="#" class="nav-link">Управление бронированием</a>
+            </nav>
+            <!--/.navigation-->
+        </div>
+    </header>
+    <!--/.header-->
+    <section class="section promo" id="promo">
+        <div class="container">
+            <div class="flex-block promo__block">
+                <h1 class="promo__title">Исполнять мечты просто!</h1>
+                <h2 class="promo__subtitle">
+                    Накопительная система скидок*:
+                </h2>
+                <p class="promo__text">-<span class="percent">5%</span> скидка для путешествующих с нами повторно;</p>
+                <p class="promo__text">-<span class="percent">7%</span> скидка для путешествующих с нами в третий раз;</p>
+                <p class="promo__text">-максимальная скидка — <span class="percent">10%</span>, скидка для проводящих свой отпуск с нашей компанией в четвертый и последующий раз</p>
+                <button class="btn btn--primary">Просмотр</button>
+            </div>
+        </div>
+        <!--container-->
+    </section>
+    <!--section promo-->
+    <section class="section algoritm">
+        <div class="container flex-block algoritm__block">
+            <h2 class="section__title"> Чтобы воспользоваться услугами компании необходимо:</h2>
+            <ol class="algoritm__list">
+                <li class="list__item">Выбрать даты предполагаемого похода;</li>
+                <li class="list__item">Указать количество участников и их уровень подготовки;</li>
+                <li class="list__item">Выбрать желаемый регион для похода;</li>
+                <li class="list__item">Зарезервировать конкретные зоны которые будут включены в
+                    обязательное посещение;</li>
+                <li class="list__item">Определить перечень дополнительных услуг;</li>
+                <li class="list__item">Оформить заказ.</li>
+            </ol>
+        </div>
+        <!--container-->
+    </section>
+    <!--section algoritm-->
+    <section class="section info">
+        <div class="container flex-block info__section__block">
+            <h2 class="section__title">Информация о компании</h2>
+            <div class="info__block">
+                <p class="target">Наша цель: <strong>сделать любой поход удобным, комфортным и безопасным.</strong></p>
+                <p class="target">Наш девиз: <strong>исполнять мечты просто!</strong></p>
+                <h3 class="section__title">Отзывы о нас</h3>
+                <div class="comments__block">
+                    <div class="comment__card">
+                        <div class="card__img-block">
+                            <img src="./img/woman.jpg" alt="avatar" class="avatar">
+                        </div>
+                        <!--card__img-block-->
+                        <h3 class="section__title">Надежда Воронина</h3>
+                        <p class="card__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minus quo nisi, reprehenderit nobis facilis magnam aspernatur molestias recusandae debitis ullam assumenda ex odit deserunt earum laborum a ipsam dolorum!</p>
+                    </div>
+                    <!--comment__card-->
+                    <div class="comment__card">
+                        <div class="card__img-block">
+                            <img src="./img/woman.jpg" alt="avatar" class="avatar">
+                        </div>
+                        <!--card__img-block-->
+                        <h3 class="section__title">Надежда Воронина</h3>
+                        <p class="card__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minus quo nisi, reprehenderit nobis facilis magnam aspernatur molestias recusandae debitis ullam assumenda ex odit deserunt earum laborum a ipsam dolorum!</p>
+                    </div>
+                    <!--comment__card-->
+                    <div class="comment__card">
+                        <div class="card__img-block">
+                            <img src="./img/woman.jpg" alt="avatar" class="avatar">
+                        </div>
+                        <!--card__img-block-->
+                        <h3 class="section__title">Надежда Воронина</h3>
+                        <p class="card__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minus quo nisi, reprehenderit nobis facilis magnam aspernatur molestias recusandae debitis ullam assumenda ex odit deserunt earum laborum a ipsam dolorum!</p>
+                    </div>
+                    <!--comment__card-->
+                </div>
+                 <!--comments__block-->
+            </div>
+             <!--info__block-->
+        </div>
+         <!--container-->
+    </section>
+    <!--info-->
+    <section class="section form__section">
+        <div class="container">
+            <h2 class="section__title">Найдите свой тур</h2>
+            <form action="#" class="form">
+                <div class="input__group">
+                    <label for="region">Введите регион</label>
+                    <input name="region" id="region" type="text" class="input form__input">
+                </div>
+                <!--input__group-->
+                <div class="input__group">
+                    <label for="date">Выберите дату</label>
+                    <input name="date" id="date" type="date" class="input form__input">
+                </div>
+                <!--input__group-->
+                <div class="input__group">
+                    <label for="number">Количество участников</label>
+                    <input name="number" id="number" type="number" class="input form__input">
+                </div>
+                <!--input__group-->
+                <div class="input__group">
+                    <label for="level">Уровень подготовки</label>
+                    <select name="level" id="level" class="form__select form__input" class="input">
+                        <option value="1" class="from__option">Никогда не был в походе</option>
+                        <option value="2" class="from__option">Иногда бываю в походе</option>
+                        <option value="3" class="from__option">Часто хожу в поход</option>
+                    </select>
+                </div>
+                <!--input__group-->
+                <div class="buttons">
+                    <a href="/" class="btn btn--secondary">Поиск</a>
+                </div>
+                <!--buttons-->
+            </form>
+        </div>
+        <!--container-->
+    </section>
+    <!--form__section-->
+    <footer class="footer">
+        <div class="container flex-block">
+            <a href="tel:88005553310" class="logo">
+                8(800)5553310
+            </a>
+            <form action="#" class="footer__form flex-block">
+                <input type="email" class="input footer__email" placeholder="Введите Ваш email">
+                <button class="btn btn--primary">Подписаться</button>
+            </form>
+            <!--/.footer__form-->
+            <nav class="navigation flex-block footer_navigation">
+                <a href="#" class="nav-link">Акции</a>
+                <a href="#" class="nav-link">Поиск</a>
+                <a href="#" class="nav-link">Управление бронированием</a>
+            </nav>
+            <!--/.navigation-->
+        </div>
+    </footer>
+    <!--footer-->
+</body>
+</html>
