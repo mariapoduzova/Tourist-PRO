@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-pro: Страница заказа</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container flex-block">
+        <a href="/" class="logo">« Турист-pro »</a>
+            <nav class="navigation flex-block">
+                <a href="#promo" class="nav-link">Акции</a>
+                <a href="#" class="nav-link">Поиск</a>
+                <a href="#" class="nav-link">Управление бронированием</a>
+            </nav>
+            <!--/.navigation-->
+    </div>
+    <!--./container-->
+</header>
+    <!--/.header-->
+    <section class="section order" id="order">
+        <div class="container">
+            <div class="flex-block order__block">
+                <h1 class="section__title">Ваш заказ:</h1>
+               <div class="rows__block">
+                   <div class="row">
+                       <h3 class="title">Регион:</h3>
+                       <p class="desc__order">Московская область</p>
+                   </div>
+                   <!--./row-->
+                   <div class="row">
+                    <h3 class="title">Наименование маршрута:</h3>
+                    <p class="desc__order">Песенный вечер с турклубом ПИК</p>
+                </div>
+                <!--./row-->
+                <div class="row">
+                    <h3 class="title">Выбранные зоны:</h3>
+                    <ul class="desc__order">
+                        <li class="list__item">Река Красава</li>
+                        <li class="list__item">Концертная площадка "На реке"</li>
+                        <li class="list__item">Тропа здоровья ПИК</li>
+                        <li class="list__item">Рафтинг</li>
+                    </ul>
+                </div>
+                <!--./row-->
+                <div class="row">
+                    <h3 class="title">Даты похода:</h3>
+                    <p class="desc__order">14.12.2021-18.12.2021</p>
+                </div>
+                <!--./row-->
+                <div class="row">
+                    <h3 class="title">Количество человек:</h3>
+                    <p class="desc__order">8</p>
+                </div>
+                <!--./row-->
+                <div class="row">
+                    <h3 class="title">Стоимость:</h3>
+                    <p class="desc__order">100 000 руб.</p>
+                </div>
+                <!--./row-->
+               </div>
+                <!--./rows__block-->
+                <h2 class="section__title">Выберите дополнительные услуги:</h2>
+               <div class="rows__block">
+                   <div class="row inputs">
+                    <input id="guide" type="checkbox" class="input order__input">
+                    <label for="guide" class="desc__order">Услуги проводника</label>
+                   </div>
+                   <!--./rows__inputs-->
+                   <div class="row inputs">
+                    <input id="rent" type="checkbox" class="input order__input">
+                    <label for="rent" class="desc__order">Услуги аренды оборудования</label>
+                   </div>
+                   <!--./rows__inputs-->
+                   <div class="row inputs">
+                    <input id="foto" type="checkbox" class="input order__input">
+                    <label for="foto" class="desc__order">Услуги фотографа / видеооператора</label>
+                   </div>
+                   <!--./rows__inputs-->
+                   <div class="row inputs">
+                    <input id="insur" type="checkbox" class="input order__input">
+                    <label for="insur" class="desc__order">Страхование от несчастных случаев</label>
+                   </div>
+                   <!--./rows__inputs-->
+            </div>
+            <!--./rows__block-->
+            <h2 class="section__title">Комментарий к заказу:</h2>
+            <div class="rows__block">
+                <textarea name="comment__order" id="comment__order" cols="100" rows="10" class="input"></textarea>
+            </div>
+            <!--./rows__block-->
+            <h2 class="section__title">Контакты, стоимость:</h2>
+               <div class="rows__block">
+                   <div class="row">
+                    <input id="email" type="email" class="input">
+                    <label for="email" class="desc__order">Введите email для связи</label>
+                   </div>
+                   <!--./row-->
+                   <div class="row">
+                    <h3 class="title">Итоговая стоимость:</h3>
+                    <p class="desc__order">120 000 руб.</p>
+                </div>
+                <!--./row-->
+                <div class="buttons">
+                    <a href="/" class="btn btn--primary">Оформить заказ</a>
+                </div>
+                </div>
+                <!--./rows__block-->
+            </div>
+        </div>
+        <!--./container-->
+    </section>
+    <!--./section__result-->
+</body>
+
+    </html>
